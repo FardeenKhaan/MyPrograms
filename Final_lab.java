@@ -329,7 +329,7 @@ class Form extends JFrame implements ActionListener {
         public void insertDatabase() throws ClassNotFoundException, SQLException {
             String url = "jdbc:mysql://localhost:3306/jdbc";       // where last jdbc is Database name in MySQL
             String uname = "root";
-            String pass = "asad56@mysql.com";
+            String pass = "fardeenkhaan70@mysql.com";
 
             String query = "SELECT * FROM employee";
             Class.forName("com.mysql.cj.jdbc.Driver");
